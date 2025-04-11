@@ -1,0 +1,32 @@
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-04-11T16:36:34.206Z"}
+{"level":"info","message":"Subscribed to event: post.created, queue: amq.gen-VC7U6mn0vS9QrFdjTVW9Dg","service":"post-service","timestamp":"2025-04-11T16:36:34.216Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-04-11T16:36:34.217Z"}
+{"level":"info","message":"Subscribed to event: post.deleted, queue: amq.gen-9SKY9okgqvTAAKrTdGQsLg","service":"post-service","timestamp":"2025-04-11T16:36:34.223Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-04-11T16:36:34.223Z"}
+{"level":"info","message":"Search service is running on port 3004","service":"post-service","timestamp":"2025-04-11T16:36:34.226Z"}
+{"level":"info","message":"Connected to DB","service":"post-service","timestamp":"2025-04-11T16:36:34.957Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=2","service":"post-service","timestamp":"2025-04-11T16:37:45.558Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-04-11T16:37:45.559Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-04-11T16:37:45.559Z"}
+{"level":"info","message":"Search post createdL 67f945635f718d7dd13b2e82, 67f945632434df520970d0f7","service":"post-service","timestamp":"2025-04-11T16:37:56.137Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=2","service":"post-service","timestamp":"2025-04-11T16:37:58.134Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-04-11T16:37:58.135Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-04-11T16:37:58.135Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=1","service":"post-service","timestamp":"2025-04-11T16:38:12.824Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-04-11T16:38:12.825Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-04-11T16:38:12.825Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=33","service":"post-service","timestamp":"2025-04-11T16:38:23.686Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-04-11T16:38:23.686Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-04-11T16:38:23.687Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=test","service":"post-service","timestamp":"2025-04-11T16:39:18.435Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-04-11T16:39:18.436Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-04-11T16:39:18.437Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=33333","service":"post-service","timestamp":"2025-04-11T16:39:24.197Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-04-11T16:39:24.197Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-04-11T16:39:24.197Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=3333","service":"post-service","timestamp":"2025-04-11T16:39:27.848Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-04-11T16:39:27.849Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-04-11T16:39:27.849Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=33333","service":"post-service","timestamp":"2025-04-11T16:39:32.009Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-04-11T16:39:32.009Z"}
+{"level":"info","message":"Search endpoint hit!","service":"post-service","timestamp":"2025-04-11T16:39:32.010Z"}
