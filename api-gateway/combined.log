@@ -1,0 +1,21 @@
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-04-11T11:54:08.911Z"}
+{"level":"info","message":"Identity service is running at: http://localhost:3001","service":"api-gateway","timestamp":"2025-04-11T11:54:08.914Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-04-11T11:54:08.914Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-04-11T11:54:32.348Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-04-11T11:54:32.349Z"}
+{"level":"info","message":"Response received from Identity service:400 ","service":"api-gateway","timestamp":"2025-04-11T11:54:32.457Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-04-11T11:54:39.697Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-04-11T11:54:39.698Z"}
+{"level":"info","message":"Response received from Identity service:201 ","service":"api-gateway","timestamp":"2025-04-11T11:54:39.997Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-04-11T11:57:39.645Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-04-11T11:57:39.646Z"}
+{"level":"info","message":"Response received from Identity service:200 ","service":"api-gateway","timestamp":"2025-04-11T11:57:39.867Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-04-11T11:57:41.644Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-04-11T11:57:41.644Z"}
+{"level":"info","message":"Response received from Identity service:200 ","service":"api-gateway","timestamp":"2025-04-11T11:57:41.866Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-04-11T11:57:43.221Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-04-11T11:57:43.221Z"}
+{"level":"info","message":"Response received from Identity service:200 ","service":"api-gateway","timestamp":"2025-04-11T11:57:43.460Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-04-11T12:10:29.383Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-04-11T12:10:29.395Z"}
+{"level":"info","message":"Response received from Identity service:200 ","service":"api-gateway","timestamp":"2025-04-11T12:10:29.739Z"}
