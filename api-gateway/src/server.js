@@ -84,21 +84,21 @@ app.use('/v1/posts',validateToken, proxy(process.env.POST_SERVICE_URL,{
 }))
 
 //setting up proxy for our media service
-// app.use('/v1/media',validateToken, proxy(process.env.MEDIA_SERVICE_URL, {
-//     ...proxyOptions,
-//     proxyReqOptDecorator:(proxyReqOpts,srcReq) => {
-//         proxyReqOpts.headers['x-user-id'] = srcReq.user.userId;
-//         if(!srcReq.headers["content-type"].startsWith('multipart/form-data')){
-//             proxyReqOpts.headers["Content-Type"] = "application/json";
-//         }
-//         return proxyReqOpts;
-//     },
-//     userResDecorator: (proxyRes, proxyResData, userReq,userRes) => {
-//         logger.info(`Response received from Media service:${proxyRes.statusCode} `)
-//         return proxyResData
-//     },
-//     parseReqBody: false
-// }))
+app.use('/v1/media',validateToken, proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator:(proxyReqOpts,srcReq) => {
+        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId;
+        if(!srcReq.headers["content-type"].startsWith('multipart/form-data')){
+            proxyReqOpts.headers["Content-Type"] = "application/json";
+        }
+        return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq,userRes) => {
+        logger.info(`Response received from Media service:${proxyRes.statusCode} `)
+        return proxyResData
+    },
+    parseReqBody: false
+}))
 
 //setting up proxy for our search service
 // app.use('/v1/search',validateToken, proxy(process.env.SEARCH_SERVICE_URL, {
@@ -122,7 +122,7 @@ app.listen(PORT, () => {
     logger.info(`API Gateway is running on port ${PORT}`);
     logger.info(`Identity service is running at: ${process.env.IDENTITY_SERVICE_URL}`);
     logger.info(`Post service is running at: ${process.env.POST_SERVICE_URL}`);
-    // logger.info(`Media service is running at: ${process.env.MEDIA_SERVICE_URL}`);
+    logger.info(`Media service is running at: ${process.env.MEDIA_SERVICE_URL}`);
     // logger.info(`Search service is running at: ${process.env.SEARCH_SERVICE_URL}`);
     logger.info(`Redis URL: ${process.env.REDIS_URL}`);
 });
